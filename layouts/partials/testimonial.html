@@ -17,7 +17,7 @@
                             </div>
                             {{ "<!-- client photo -->" | safeHTML }}
                             <div class="client-thumb">
-                                <img src="{{ .clientThumb | absURL }}" class="img-fluid" alt="client-image">
+                                <img src="{{ .clientThumb | relURL }}" class="img-fluid" alt="client-image">
                             </div>
                             <div class="client-meta">
                                 <h4>{{ .clientName }}</h4>
