@@ -116,12 +116,6 @@ footerQuicklinkTitle = "Quicklinks"
 footerAboutTitle = "About"
 footerSubscribeTitle = "Subscribe"
 
-
-# cookies
-[params.cookies]
-enable = true
-expire_days = 2
-
 # Hero Area Section
 [Languages.en.params.hero]
 enable  = true
